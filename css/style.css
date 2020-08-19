@@ -1,0 +1,141 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /*font-family: "acumin-pro", sans-serif;*/
+  font-style: normal;
+  font-weight: 100;
+}
+
+/* UTILITY CLASSES */
+.container {
+  width: 84%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  text-transform: none;
+  list-style: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* img {
+  width: 100%;
+} */
+
+/* NAV BAR SECTION */
+.nav {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.nav .col {
+  margin: -0.4rem 0;
+}
+
+.nav .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav .nav__head {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav .nav__item {
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+}
+
+.nav .nav__list {
+  margin: 0 0.8rem;
+}
+
+.nav .nav__list__btn {
+  margin: 0 -0.1rem;
+}
+
+.nav .nav__head__link {
+  color: #f58635;
+}
+
+.nav__list__link__button {
+  color: #f3f3f3 !important;
+  background: #f58635;
+  padding: 0.6rem 2.3rem;
+  border-radius: 4px;
+}
+
+.nav .nav__list__link {
+  text-decoration: none;
+  text-transform: none;
+  color: #141414;
+}
+
+/* HEADER SECTION */
+.top {
+  background: rgb(255, 75, 52);
+  color: #f3f3f3;
+  padding: 2rem 0;
+}
+
+.top .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top .col:first-child {
+  width: 50%;
+  max-width: 400px;
+  padding-top: 1.5rem;
+}
+
+.top .col:last-child {
+  width: 50%;
+}
+
+.top .top__head {
+  font-size: 2.7rem;
+  font-weight: 500;
+}
+
+.top .top__text {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.top .btn__dark {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.top .top__img {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 250px;
+}
